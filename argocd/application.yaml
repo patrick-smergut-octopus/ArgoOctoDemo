@@ -3,6 +3,10 @@ kind: Application
 metadata:
   name: argocd-demo
   namespace: argocd
+  # Add annotations to link this ArgoCD Application to an Octopus project and environment.
+  annotations:
+    argo.octopus.com/project: "single-application"
+    argo.octopus.com/environment: "development"
 spec:
   project: default
 
