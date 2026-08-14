@@ -15,7 +15,7 @@ configMapGenerator:
 # defined in ../../base.
 images:
   - name: nginx
-    newTag: "1.30.4"
+    newTag: "1.31.3"
 
 replicas:
   - name: demo-web
