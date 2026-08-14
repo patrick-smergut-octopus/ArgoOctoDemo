@@ -43,9 +43,9 @@ spec:
         # Leave this off at first so each tenant sits visibly OutOfSync after a
         # commit. Turn it on to demo hands-off drift correction instead.
         #
-        # automated:
-        #   prune: true
-        #   selfHeal: true
+        automated:
+          prune: true
+          selfHeal: true
       revisionHistoryLimit: 3
 
   # What happens to generated Applications when the ApplicationSet changes.
