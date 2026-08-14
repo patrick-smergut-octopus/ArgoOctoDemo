@@ -22,7 +22,7 @@ spec:
       name: 'octopus-{{.env}}'
       annotations:
         # >>> replace with your project slug <<<
-        argo.octopus.com/project: your-project-slug
+        argo.octopus.com/project: octopus-manifest-generation
         argo.octopus.com/environment: '{{.env}}'
     spec:
       project: default

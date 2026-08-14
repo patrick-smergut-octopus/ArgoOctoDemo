@@ -23,7 +23,7 @@ spec:
       name: 'demo-{{.path.basename}}'
       annotations:
         # >>> replace with the slug of your image-tag Octopus project <<<
-        argo.octopus.com/project: your-project-slug
+        argo.octopus.com/project: applicationset
         # The tenant directories are named for the Octopus environments, so the
         # environment slug templates itself from the directory name.
         argo.octopus.com/environment: '{{.path.basename}}'
