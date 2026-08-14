@@ -6,7 +6,7 @@ metadata:
     app: demo-web
 spec:
   # Bumping this number is the fastest possible "make a change" demo.
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: demo-web
@@ -36,6 +36,7 @@ spec:
               cpu: 10m
               memory: 32Mi
             limits:
+              cpu: 20m
               memory: 64Mi
       volumes:
         - name: site
