@@ -28,8 +28,8 @@ spec:
     # sit visibly OutOfSync after a commit so you can point at it, then hit
     # Sync. Uncomment once you want to show hands-off drift correction.
     #
-    # automated:
-    #   prune: true
-    #   selfHeal: true
+    automated:
+       prune: true
+       selfHeal: true
 
   revisionHistoryLimit: 3
