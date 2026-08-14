@@ -7,6 +7,7 @@ metadata:
   annotations:
     argo.octopus.com/project: "single-application"
     argo.octopus.com/environment: "development"
+    argo.octopus.com/tenant: "dummy-tenant"
 spec:
   project: default
 
