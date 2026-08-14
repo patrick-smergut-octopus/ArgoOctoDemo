@@ -13,7 +13,7 @@ data:
     <html lang="en">
     <head>
     <meta charset="utf-8">
-    <title>Development — 0.0.1</title>
+    <title>Development — 0.0.2</title>
     <style>
       body { margin:0; min-height:100vh; display:grid; place-items:center;
              background:#14181c; color:#e8ecef;
@@ -34,11 +34,11 @@ data:
     <body>
       <main class="panel">
         <p class="eyebrow">Manifest written by Octopus</p>
-        <div class="release">0.0.1</div>
+        <div class="release">0.0.2</div>
         <dl>
           <dt>Environment</dt><dd>Development</dd>
           <dt>Project</dt><dd>Octopus manifest generation</dd>
-          <dt>Deployed</dt><dd>Friday, August 14, 2026 8:56:12 PM</dd>
+          <dt>Deployed</dt><dd>Friday, August 14, 2026 9:12:01 PM</dd>
         </dl>
       </main>
     </body>
@@ -64,7 +64,7 @@ spec:
         # There is no kustomize hash here, so nothing would otherwise force a
         # rollout when the ConfigMap contents change. The release number does
         # it instead: a new release means a new pod spec.
-        octopus.com/release: "0.0.1"
+        octopus.com/release: "0.0.2"
     spec:
       containers:
         - name: nginx
