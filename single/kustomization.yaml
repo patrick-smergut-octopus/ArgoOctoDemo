@@ -18,7 +18,7 @@ configMapGenerator:
 # Allow Octopus to set the image tag in the Deployment.
 images:
   - name: nginx
-    newTag: "1.31.3"
+    newTag: "1.30.4"
 
 # Set to false if you would rather demo a stable ConfigMap name and do the
 # pod restart by hand.
