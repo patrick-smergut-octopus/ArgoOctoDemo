@@ -6,6 +6,7 @@ metadata:
   # Add annotations to link this ArgoCD Application to an Octopus project and environment.
   annotations:
     argo.octopus.com/project: "single-application"
+    argo.octopus.com/project: "argocd-multi-instance-bug"
     argo.octopus.com/environment: "development"
     argo.octopus.com/tenant: "dummy-tenant"
 spec:
